@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>calcolo del prezzo del biglietto del treno</title>
+</head>
+<body>
+    <header>
+        <h1>calcola il prezzo del tuo biglietto</h1>
+    </header>
+    <main>
+        <div class="container container_top">
+            <form action="#" method="get">
+                <div class="input_container">
+                    <div class="box">
+                        <label for="name">Nome Cognome</label>
+                        <input type="text" name="name" id="">
+                    </div>
+                    <div class="box">
+                        <label for="km">Km da percorrere</label>
+                        <input type="text" name="km" id="">
+                    </div>
+                    <div class="box">
+                        <label for="age">Fascia d'età</label>
+                        <select name="age" id="">
+                            <option value="select">Seleziona</option>
+                            <option value="major">Maggiorenne</option>
+                            <option value="minor">Minorenne</option>
+                            <option value="senior">Over 65</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="crelete">
+                    <button id="gen">Genera</button>
+                    <button type="reset">Annulla</button>
+                </div>
+            </form>
+        </div>
+        <h1>il tuo biglietto</h1>
+        <div class="container">
+            <h2>dettaglio passeggeri</h2>
+            <div class="boxes">
+                <div class="bottom_little_box">
+                    <h3>nome passeggero</h3>
+                </div>
+                <div class="bottom_box">
+                    <div class="squares">
+                        <div><h4>Offerta</h4></div>
+                        <span>Biglietto standard</span>
+                    </div>
+                    <div class="squares">
+                        <div><h4>Carrozza</h4></div>
+                        <span>5</span>
+                    </div>
+                    <div class="squares">
+                        <div><h4>Codice CP</h4></div>
+                        <div>92911</div>
+                    </div>
+                    <div class="squares">
+                        <div><h4>Costo biglietto</h4></div>
+                        <div>2.10</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>

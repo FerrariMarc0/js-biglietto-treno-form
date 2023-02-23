@@ -17,25 +17,25 @@
                 <div class="input_container">
                     <div class="box">
                         <label for="name" id="user">Nome Cognome</label>
-                        <input type="text" name="name" id="input_name">
+                        <input type="text" name="name" id="input_name" required>
                     </div>
                     <div class="box">
                         <label for="km">Km da percorrere</label>
-                        <input type="text" name="km" id="road">
+                        <input type="number" name="km" id="road" min="1">
                     </div>
                     <div class="box">
                         <label for="age">Fascia d'età</label>
                         <select name="age" id="eta">
-                            <option class="eta">Seleziona</option>
-                            <option class="eta">Maggiorenne</option>
-                            <option class="eta">Minorenne</option>
-                            <option class="eta">Over 65</option>
+                            <option>---</option>
+                            <option value="major">Maggiorenne</option>
+                            <option value="minor">Minorenne</option>
+                            <option value="senior">Over 65</option>
                         </select>
                     </div>
                 </div>
                 <div class="crelete">
                     <button id="gen" type="button">Genera</button>
-                    <button type="reset">Annulla</button>
+                    <button type="reset" id="hide">Annulla</button>
                 </div>
             </form>
         </div>

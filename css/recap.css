@@ -1,0 +1,22 @@
+.boxes{
+    display: flex;
+}
+.bottom_little_box{
+    background-color: #757575;
+    padding: 1.25rem;
+}
+.bottom_box{
+    border-top: .0625rem solid;
+    border-bottom: .0625rem solid;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.squares{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.show{
+    visibility: hidden;
+}

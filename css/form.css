@@ -1,0 +1,37 @@
+.container{
+    width: 50%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    justify-content: space-around;
+    margin-bottom: 3.125rem;
+    padding: 1.25rem 1.875rem;
+}
+.container_top{
+    border-radius: .625rem;
+    display: flex;
+    padding: 0 0 1.25rem;
+}
+.input_container{
+    display: flex;
+}
+.box{
+    font-size: 1.125rem;
+    color: #b91547;
+    display: flex;
+    flex-direction: column;
+    gap: .9375rem;
+    padding: 1.25rem 2.5rem;
+    text-align: center;
+    margin-bottom: 1.875rem;
+}
+.crelete{
+    text-align: center;
+}
+.crelete button{
+    padding: .3125rem;
+    margin: 0 .625rem;
+    color: #b91547;
+    font-size: 1.125rem;
+    font-weight: 600;
+    cursor: pointer;
+}

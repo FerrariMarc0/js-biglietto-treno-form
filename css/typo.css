@@ -1,0 +1,34 @@
+h1, h2, h3, h5{
+    text-transform: uppercase;
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+}
+h2{
+    padding: 0 0 1.25rem;
+}
+
+h5{
+    padding: .625rem;
+    font-size: .9375rem;
+}
+input, option, h4, span{
+    font-size: 1.0625rem;
+}
+select{
+    text-align: center;
+}
+#gen{
+    border-color: #e38446;
+    border-radius: .3125rem;
+}
+#input_name, #road, #eta{
+    border-radius: .3125rem;
+    border-color: #b91547;
+    padding: .3125rem;
+}
+form input:hover{
+    background-color: #b91547;
+    color: #ffffff;
+}

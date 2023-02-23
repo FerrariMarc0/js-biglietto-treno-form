@@ -10,7 +10,7 @@ body{
 header{
     padding: 1.25rem;
 }
-h1, h2, h3{
+h1, h2, h3, h5{
     text-transform: uppercase;
 }
 h1{
@@ -18,18 +18,41 @@ h1{
     color: #ffffff;
 }
 h2{
-    padding: 0 0 20px;
+    padding: 0 0 1.25rem;
+}
+h5{
+    padding: .625rem;
+    font-size: 1.25rem;
+}
+input, option, h4, span{
+    font-size: 1.0625rem;
+}
+select{
+    text-align: center;
+}
+#gen{
+    border-color: #e38446;
+    border-radius: .3125rem;
+}
+#input_name, #road, #eta{
+    border-radius: .3125rem;
+    border-color: #b91547;
+    padding: .3125rem;
+}
+form input:hover{
+    background-color: #b91547;
+    color: #ffffff;
 }
 .container{
     width: 50%;
     margin: 0 auto;
     background-color: #ffffff;
     justify-content: space-around;
-    margin-bottom: 50px;
-    padding: 20px 30px;
+    margin-bottom: 3.125rem;
+    padding: 1.25rem 1.875rem;
 }
 .container_top{
-    border-radius: 10px;
+    border-radius: .625rem;
     display: flex;
     padding: 0 0 1.25rem;
 }
@@ -37,24 +60,23 @@ h2{
     display: flex;
 }
 .box{
-    width: 250px;
-    height: 8.125rem;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #b91547;
     display: flex;
     flex-direction: column;
     gap: .9375rem;
-    padding: 20px 40px;
+    padding: 1.25rem 2.5rem;
     text-align: center;
+    margin-bottom: 1.875rem;
 }
 .crelete{
     text-align: center;
 }
 .crelete button{
-    padding: 5px;
-    margin: 0 10px;
+    padding: .3125rem;
+    margin: 0 .625rem;
     color: #b91547;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
     cursor: pointer;
 }
@@ -62,15 +84,12 @@ h2{
     display: flex;
 }
 .bottom_little_box{
-    
-    height: 7.8125rem;
     background-color: #757575;
-    padding: 20px;
+    padding: 1.25rem;
 }
 .bottom_box{
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    height: 7.8125rem;
+    border-top: .0625rem solid;
+    border-bottom: .0625rem solid;
     width: 70%;
     display: flex;
     justify-content: space-around;
@@ -79,4 +98,7 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+.show{
+  /*  visibility: hidden;*/
 }

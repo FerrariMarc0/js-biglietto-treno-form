@@ -11,57 +11,61 @@
     <header>
         <h1>calcola il prezzo del tuo biglietto</h1>
     </header>
-    <main>
+    <main>   <!--FORM DA COMPILARE-->
         <div class="container container_top">
             <form action="#" method="get">
                 <div class="input_container">
                     <div class="box">
-                        <label for="name">Nome Cognome</label>
-                        <input type="text" name="name" id="">
+                        <label for="name" id="user">Nome Cognome</label>
+                        <input type="text" name="name" id="input_name">
                     </div>
                     <div class="box">
                         <label for="km">Km da percorrere</label>
-                        <input type="text" name="km" id="">
+                        <input type="text" name="km" id="road">
                     </div>
                     <div class="box">
                         <label for="age">Fascia d'età</label>
-                        <select name="age" id="">
-                            <option value="select">Seleziona</option>
-                            <option value="major">Maggiorenne</option>
-                            <option value="minor">Minorenne</option>
-                            <option value="senior">Over 65</option>
+                        <select name="age" id="eta">
+                            <option class="eta">Seleziona</option>
+                            <option class="eta">Maggiorenne</option>
+                            <option class="eta">Minorenne</option>
+                            <option class="eta">Over 65</option>
                         </select>
                     </div>
                 </div>
                 <div class="crelete">
-                    <button id="gen">Genera</button>
+                    <button id="gen" type="button">Genera</button>
                     <button type="reset">Annulla</button>
                 </div>
             </form>
         </div>
-        <h1>il tuo biglietto</h1>
-        <div class="container">
-            <h2>dettaglio passeggeri</h2>
-            <div class="boxes">
-                <div class="bottom_little_box">
-                    <h3>nome passeggero</h3>
-                </div>
-                <div class="bottom_box">
-                    <div class="squares">
-                        <div><h4>Offerta</h4></div>
-                        <span>Biglietto standard</span>
+            <!--FORM COMPILATO-->
+        <div class="show" id="recap">
+            <h1>il tuo biglietto</h1>
+            <div class="container">
+                <h2>dettaglio passeggeri</h2>
+                <div class="boxes">
+                    <div class="bottom_little_box">
+                        <h3>nome passeggero:</h3>
+                        <h5 id="identity"></h5>
                     </div>
-                    <div class="squares">
-                        <div><h4>Carrozza</h4></div>
-                        <span>5</span>
-                    </div>
-                    <div class="squares">
-                        <div><h4>Codice CP</h4></div>
-                        <div>92911</div>
-                    </div>
-                    <div class="squares">
-                        <div><h4>Costo biglietto</h4></div>
-                        <div>2.10</div>
+                    <div class="bottom_box">
+                        <div class="squares">
+                            <div><h4>Offerta</h4></div>
+                            <span id="age">Biglietto standard</span>
+                        </div>
+                        <div class="squares">
+                            <div><h4>Carrozza</h4></div>
+                            <span id="car">5</span>
+                        </div>
+                        <div class="squares">
+                            <div><h4>Codice CP</h4></div>
+                            <span id="ccp">92911</span>
+                        </div>
+                        <div class="squares">
+                            <div><h4>Costo biglietto</h4></div>
+                            <span id="price">2.10</span>
+                        </div>
                     </div>
                 </div>
             </div>
